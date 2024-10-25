@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Google Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>contacts</h1>
+        <nav>
+            <a href="#all-contact">Tous les contacts</a>
+            <a href="#add-contact">Ajouter un contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="all-contacts">
+         <h2>Liste de contacts</h2>
+         <ul>
+            <li>retha mbombo</li>
+            <li>elga musau</li>
+            <li>remy kazengu</li>
+            <li>ketsia manzanza</li>
+         </ul>
+        </section>
+        <section id="add-contact">
+           <h2>Ajouter un nouveau</h2>
+           <form action="">
+               <label for="name">nom :</label>
+               <input type="text" id="name" name="name">
+               <label for="name">prenom :</label>
+               <input type="text" id="name" name="prenom">
+               <label for="email">Email :</label>
+               <input type="email" id="email" name="email">
+               <button type="submit">Ajouter le contact</button>
+           </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gestionnaire de contacts</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
